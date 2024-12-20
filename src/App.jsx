@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 import ThemeToggle from "./components/ThemeToggle";
+import './App.css';
 
 function App() {
   const [todos, setTodos] = useState(() => {
