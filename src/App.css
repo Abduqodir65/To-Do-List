@@ -18,7 +18,9 @@
   }
 }
 
-.responsive-button,
+.responsive-button {
+  height: 50px; /* Balandligi bir xil bo'ladi */
+}
 input {
   flex: 1; /* Kenglikni moslashuvchan qiladi */
   height: 50px; /* Balandligi bir xil bo'ladi */
