@@ -1,15 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class', // Dark rejimni faollashtirish uchun
-  content: ['./src/**/*.{js,jsx,ts,tsx}'], // Fayl joylashuvini belgilang
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {
-      colors: {
-        darkBg: '#1a202c',
-        darkText: '#cbd5e0',
-        lightBg: '#edf2f7',
-        lightText: '#1a202c',
-      },
-    },
+    extend: {},
   },
-  plugins: [],
-};
+  plugins: [require("daisyui")],
+}
