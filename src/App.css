@@ -1,39 +1,6 @@
+/* Responsive CSS */
 @media (max-width: 768px) {
-  .flex.items-center {
-    flex-direction: column;
-  }
-
-  input,
-  .responsive-button {
-    width: 100%; /* Kenglikni to'liq qiladi */
-    border-radius: 0; /* Dumaloqlikni olib tashlash */
-  }
-
-  input {
-    border-radius: 8px 8px 0 0;
-  }
-
-  .responsive-button {
-    border-radius: 0 0 8px 8px;
+  .responsive-button span {
+    display: none; /* Hide the text on smaller screens */
   }
 }
-
-.responsive-button {
-  height: 50px; /* Balandligi bir xil bo'ladi */
-}
-input {
-  flex: 1; /* Kenglikni moslashuvchan qiladi */
-  height: 50px; /* Balandligi bir xil bo'ladi */
-}
-
-input {
-  border-right: none; /* Input va tugma orasidagi chiziqni olib tashlash */
-}
-
-.responsive-button {
-  min-width: 120px; /* Tugma minimal kengligini belgilash */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
